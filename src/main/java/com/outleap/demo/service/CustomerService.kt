@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service
 class CustomerService(
     private val customerRepository: CustomerRepository
 ) {
-    fun createCustomer(customer: Customer) {
-        customerRepository.save(customer)
+    fun createCustomer(customer: Customer): Customer {
+        return customerRepository.save(customer)
     }
 }
