@@ -1,5 +1,8 @@
-package com.outleap.notification
+package com.outleap.notification.facade
 
+import com.outleap.notification.entity.Notification
+import com.outleap.notification.dto.NotificationDto
+import com.outleap.notification.service.NotificationService
 import lombok.extern.slf4j.Slf4j
 import org.springframework.stereotype.Component
 import java.util.logging.Logger

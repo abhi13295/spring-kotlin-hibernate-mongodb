@@ -3,8 +3,8 @@ package com.outleap.demo.facade
 import com.outleap.demo.dto.CustomerDto
 import com.outleap.demo.entity.Customer
 import com.outleap.demo.service.CustomerService
-import com.outleap.notification.NotificationDto
-import com.outleap.notification.NotificationFacade
+import com.outleap.notification.dto.NotificationDto
+import com.outleap.notification.facade.NotificationFacade
 import org.springframework.stereotype.Component
 import java.util.concurrent.Executors
 

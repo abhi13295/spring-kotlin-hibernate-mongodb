@@ -1,4 +1,4 @@
-package com.outleap.notification
+package com.outleap.notification.dto
 
 data class NotificationDto (
     val customerId: Long? = null,
